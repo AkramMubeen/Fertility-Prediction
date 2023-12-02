@@ -30,7 +30,7 @@ class DataTransformation:
         try:
             numerical_columns = ["age", "sitting_hrs"]
             categorical_columns = [
-                "season",'childish diseases','trauma','surgery','high_fever','alcohol_freq','smoking']
+                "season",'childish_diseases','trauma','surgery','high_fever','alcohol_freq','smoking']
 
             num_pipeline= Pipeline(
                 steps=[
